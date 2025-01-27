@@ -11,7 +11,7 @@ export const meta: MetaFunction = () => {
     { name: 'description', content: 'Talk with Collective Coder, an AI assistant from The Collective' },
   ];
 };
-
+ 
 export const loader = () => json({});
 
 export default function Index() {
